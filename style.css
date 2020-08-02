@@ -83,7 +83,6 @@ img {
     font-family: 'Yatra One', cursive;
 }
 
-
 .section {
     padding-top: var(--mb-6);
     padding-bottom: var(--mb-4);
@@ -119,7 +118,7 @@ img {
 @media screen and (max-width: 768px) {
     .nav__menu {
         position: fixed;
-        top: var(--header-height);
+        top: 3rem;
         right: -100%;
         width: 80%;
         height: 100%;
@@ -383,7 +382,7 @@ img {
     color: #9cd9f9;
 }
 
-.inputBox input,
+/* .inputBox input,
 .textarea textarea {
     position: relative;
     width: 100%;
@@ -456,7 +455,7 @@ img {
 .inputBox textarea:focus~.line,
 .inputBox textarea:valid~.line {
     height: 100%;
-}
+} */
 
 .contact__button {
     display: block;
