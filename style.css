@@ -1,0 +1,23 @@
+/* Colors:
+Main - darkest blue #04121b rgb(4, 18, 27);
+Second - dark blue #042235 rgb(4, 34, 53);
+Third - light blue #8bb1ba 	rgb(139, 177, 186); 
+text color - #9cd9f9 rgb(156, 217, 249) */
+
+:root {
+    --darkest-color: #04121b;
+    --dark-color: #042235;
+    --light-color: #8bb1ba;
+    --text-color: #9cd9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
