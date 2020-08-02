@@ -18,7 +18,7 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="resources/ewa_ilnicka_cv.pdf" class="nav__logo">POBIERZ CV</a>
+                <a href="resources/ewa_ilnicka_cv.pdf" class="nav__cv">POBIERZ CV</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -38,21 +38,23 @@
     </header>
     <main class="l-main">
         <!-- HOME -->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Ewa <span class="home__title-color">Ilnicka</span><br> Frontend Developer</h1>
-            </div>
+        <div class="container">
+            <div class="headerContent home bd-grid" id="home">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <div class="small-header">
+                        <div class="home__data">
+                            <h1 class="home__title">Ewa <span class="home__title-color">Ilnicka</span><br> Frontend
+                                Developer</h1>
+                        </div>
 
-            <div class="home__social">
-                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                        <div class="home__img">
+                            <img src="resources/home_img.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="home__img">
-                <img src="resources/home_img.svg" alt="">
-            </div>
-        </section>
+        </div>
         <!-- ABOUT -->
         <section class="about section " id="about">
             <h2 class="section-title">O mnie</h2>
@@ -185,28 +187,59 @@
 
             <div class="contact__container bd-grid">
                 <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Imię</span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Email</span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="inputBox textarea">
+                        <textarea required="required"></textarea>
+                        <span class="text">Twoja wiadomość...</span>
+                        <span class="line"></span>
+                    </div>
+                    <input type="button" value="Wyślij" class="contact__button button">
+                    <!-- <input type="text" placeholder="Name" class="contact__input">
                     <input type="mail" placeholder="Email" class="contact__input">
                     <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enviar" class="contact__button button">
+                    <input type="button" value="Enviar" class="contact__button button"> -->
                 </form>
             </div>
         </section>
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Ewa Ilnicka</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
-            </div>
-            <p>&#169; 2020 Ewa Ilnicka</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
     </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Ewa Ilnicka</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p>&#169; 2020 Ewa Ilnicka</p>
+        <p> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/demo-1.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $('nav a').on('click', function () {
+            const goToSection = "#" + $(this).attr('class');
+            $('body, html').animate({
+                scrollTop: $(goToSection).offset().top - 80
+            }, 1000)
+        })
+    </script>
 </body>
 
 </html>
