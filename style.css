@@ -108,7 +108,39 @@ img {
     box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
 }
 
-.nav {
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    flex-grow: 1;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+nav a {
+    font-family: 'Yatra One', cursive;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* .nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -169,12 +201,12 @@ img {
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color);
+    background-color: var(--darkest-color);
 }
 
 .show {
     right: 0;
-}
+} */
 
 .home {
     height: calc(100vh - 3rem);
@@ -197,10 +229,12 @@ img {
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
+    font-family: 'Yatra One', cursive;
 }
 
 .home__title-color {
     color: var(--text-color);
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 
@@ -484,10 +518,17 @@ img {
     margin-bottom: var(--mb-4);
 }
 
-.footer__icon {
-    font-size: 1.5rem;
-    color: #fff;
-    margin: 0 var(--mb-2)
+.footer__social ul {
+    list-style: none;
+}
+
+.footer__social li {
+    margin: 10px 0;
+}
+
+.footer__social li i {
+    margin-right: 20px;
+    color: var(--light-color);
 }
 
 /* ===== MEDIA QUERIES=====*/
