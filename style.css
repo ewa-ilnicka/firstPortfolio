@@ -400,9 +400,155 @@ nav a:hover {
 
 .contact {
     background-color: #03080a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.contact__input {
+.containerContact {
+    width: 80%;
+    padding: 20px;
+}
+
+.containerContact h2 {
+    width: 100%;
+    color: #9cd9f9;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.containerContact .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.containerContact .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.3s;
+}
+
+.containerContact .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #9cd9f9;
+}
+
+.containerContact .row100 .inputBox input,
+.containerContact .row100 .textarea textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+
+.containerContact .row100 .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.3s;
+    pointer-events: none;
+    background-color: #101517;
+    width: 100%;
+}
+
+.containerContact .row100 .inputBox input:focus+.text,
+.containerContact .row100 .inputBox input:valid+.text {
+    top: -35px;
+    left: -10px;
+}
+
+.containerContact .row100 .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #9cd9f9;
+    transition: 0.3s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.containerContact .row100 .inputBox input:focus~.line,
+.containerContact .row100 .inputBox input:valid~.line {
+    height: 100%;
+}
+
+.containerContact .row100 .textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.containerContact .row100 .inputBox .textarea textarea {
+    height: 100%;
+    resize: none;
+}
+
+.containerContact .row100 .inputBox textarea:focus+.text,
+.containerContact .row100 .inputBox textarea:valid+.text {
+    top: -35px;
+    left: -10px;
+}
+
+.containerContact .row100 .inputBox textarea:focus~.line,
+.containerContact .row100 .inputBox textarea:valid~.line {
+    height: 100%;
+}
+
+input[type="submit"] {
+    /* border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background-color: #9cd9f9;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 2px; */
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #9cd9f9;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #9cd9f9 inset, 0 0 0 0 #9cd9f9;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    color: #000;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 10px 0 #9cd9f9 inset, 0 0 10px 4px #9cd9f9;
+    color: #9cd9f9;
+}
+
+/* .contact__input {
     width: 100%;
     font-size: var(--normal-font-size);
     padding: 1rem;
@@ -416,80 +562,6 @@ nav a:hover {
     color: #9cd9f9;
 }
 
-/* .inputBox input,
-.textarea textarea {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    padding: 0 10px;
-    z-index: 1;
-    color: #000;
-}
-
-.inputBox .text {
-    position: relative;
-    top: 0;
-    left: 0;
-    line-height: 40px;
-    font-size: 18px;
-    padding: 0 10px;
-    display: block;
-    transition: 0.3s;
-    pointer-events: none;
-    background-color: #101517;
-    width: 100%;
-}
-
-.inputBox input:focus+.text,
-.inputBox input:valid+.text {
-    top: -35px;
-    left: -10px;
-}
-
-.inputBox .line {
-    position: relative;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #9cd9f9;
-    transition: 0.3s;
-    border-radius: 2px;
-    pointer-events: none;
-}
-
-.inputBox input:focus~.line,
-.inputBox input:valid~.line {
-    height: 100%;
-}
-
-.textarea {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    padding: 10px 0;
-}
-
-.inputBox .textarea textarea {
-    height: 100%;
-    resize: none;
-}
-
-.inputBox textarea:focus+.text,
-.row100 .inputBox textarea:valid+.text {
-    top: -35px;
-    left: -10px;
-}
-
-.inputBox textarea:focus~.line,
-.inputBox textarea:valid~.line {
-    height: 100%;
-} */
 
 .contact__button {
     display: block;
@@ -497,8 +569,8 @@ nav a:hover {
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
-    margin-left: auto;
-}
+    margin-left: auto; 
+}*/
 
 /* ===== FOOTER =====*/
 .footer {
