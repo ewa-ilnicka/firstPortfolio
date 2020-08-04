@@ -196,20 +196,14 @@
                     <input type="button" value="WYŚLIJ" class="contact__button button">
                 </form>
             </div> -->
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
             <div class="containerContact">
                 <h2 class="section-title">Skontaktuj się ze mną<br>(w budowie)</h2>
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox">
-                            <input type="text" name="" required="required">
-                            <span class="text">Imię</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="inputBox">
-                            <input type="text" name="" required="required">
-                            <span class="text">Nazwisko</span>
+                            <input type="text" id="Name" name="Name" required="required">
+                            <span class="text">Imię i nazwisko</span>
                             <span class="line"></span>
                         </div>
                     </div>
@@ -217,15 +211,8 @@
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox">
-                            <input type="text" name="" required="required">
+                            <input type="email" id="Email" name="Email" required="required">
                             <span class="text">Email</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="inputBox">
-                            <input type="text" name="" required="required">
-                            <span class="text">Mobile</span>
                             <span class="line"></span>
                         </div>
                     </div>
@@ -233,7 +220,7 @@
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox textarea">
-                            <textarea required="required"></textarea>
+                            <textarea id="Message" name="Message" required="required"></textarea>
                             <span class="text">Twoja wiadomość...</span>
                             <span class="line"></span>
                         </div>
@@ -245,6 +232,7 @@
                     </div>
                 </div>
             </div>
+            </form>
         </section>
     </main>
 
