@@ -16,7 +16,7 @@
 
 [![Whole view](resources/webScreenshot2.png)]()
 
-- This website I created with HTML5, CSS3, Java Script and PHP.
+- I this website created with HTML5, CSS3, Java Script and PHP.
 - I'm still learning, so there might be some mistakes.
 
 > Theme:
@@ -25,93 +25,50 @@
 - Stars (animation in header looking like moving constellation. Also favicon in shape of stars);
 - Shining (some headline have animation 'glow);
 
-> GIF Tools
 
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
 
-**Recordit**
+## Table of Contents
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+> Sections:
 
-**ttystudio**
+- [Navigation](#navigation)
+- [Header](#header)
+- [About me](#aboutme)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Contact](#contact)
+- [Footer](#footer)
 
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
 
----
+## Navigation
 
-## Table of Contents (Optional)
+- Each link will take you to the particular section.
+- Structure was made in HTML, styling in CSS and script in JQuery.
 
-> If your `README` has a lot of info, section headers might be nice.
+### RWD
 
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
+- It's not yet responsive. I'm working on hamburger menu. I started this project with 'Mobile First Design" in mind but something was wrong all the time so I left it for later.
 
 ---
 
-## Example (Optional)
+## Header
 
-```javascript
-// code away!
+### RWD
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
+- I'm working on it (as in navigation). I experimented with grid, flex and @media but need some time to make it right.
 
----
+### Animation
 
-## Installation
+- I found free JS script with animation of moving constellation (adnotion about athor is in script), used it and modified for my design.
 
-- All the `code` required to get started
-- Images of what it should look like
+## Images
 
-### Clone
-
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
-
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+- Icon of girl found on 
+- Background image found on Photopea (mit).
 
 ---
 
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
-
----
-
-## Contributing
+## About me
 
 > To get started...
 
@@ -133,7 +90,7 @@ $ bower install
 
 ---
 
-## Team
+## Skills
 
 > Or Contributors/People
 
@@ -147,14 +104,14 @@ $ bower install
 
 ---
 
-## FAQ
+## Projects
 
 - **How do I do *specifically* so and so?**
     - No problem! Just do this.
 
 ---
 
-## Support
+## Contact
 
 Reach out to me at one of the following places!
 
@@ -164,16 +121,8 @@ Reach out to me at one of the following places!
 
 ---
 
-## Donations (Optional)
 
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
-
-
----
-
-## License
+## Footer
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
