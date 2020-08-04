@@ -3,7 +3,7 @@
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
 
-# My first porfolio
+# My first portfolio
 
 > I'm a frontend developer and with this portfolio I would like to show you my skills.
 
