@@ -85,15 +85,9 @@
 
 ## Skills
 
-> Or Contributors/People
+> Found design idea on the Internet (<a href="https://www.youtube.com/channel/UCLjtB1XNaiVz-brRDymb5gg" target="_blank">True Coder</a>) and tried to do it on my own. It is also responsive (I used grid for this - three columns when wide screen, two when smaller and one column for mobiles).
 
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
+[![Skills](resources/skillsgif.gif)]()
 
 ---
 
@@ -118,4 +112,4 @@ Contact form was made in html, CSS and PHP. I do not know PHP so I found free sr
 
 - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
                 href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+- Template for README.md by <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
