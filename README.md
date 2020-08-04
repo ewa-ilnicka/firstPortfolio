@@ -7,14 +7,14 @@
 
 > I'm a frontend developer and with this portfolio I would like to show you my skills.
 
-> I'm still working on it so be sure to check it any time soon.
+> I'm still working on it so be sure to check it again any time soon.
 
 > #frontend, #website, #portfolio
 
 
 ***This is the whole view***
 
-[![INSERT YOUR GRAPHIC HERE](/resources/webscreenshot.png)]()
+[![INSERT YOUR GRAPHIC HERE](resources/webScreenshot.png)]()
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
