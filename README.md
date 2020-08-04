@@ -63,7 +63,7 @@
 
 ## Images
 
-- Icon of girl found on 
+- Icon of girl is in svg format.
 - Background image found on Photopea (mit).
 
 ---
@@ -72,21 +72,14 @@
 
 > To get started...
 
-### Step 1
+### Photo
 
-- **Option 1**
-    - 🍴 Fork this repo!
+- Photo made for some documents. I'm thinking about changing it for something less formal and maybe ad some opacity (watermarks seem to be popular).
 
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+### Text
 
-### Step 2
+- I didn't have any good idea what to write in here, especially that I don't have any experience in IT section. I tried to make it short yet interesting (I do hope so). 
 
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
 
 ---
 
@@ -106,25 +99,23 @@
 
 ## Projects
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
+- **In progress...**
+    - I do have some projects but I have to push them on github. Please be patient :)
 
 ---
 
 ## Contact
 
-Reach out to me at one of the following places!
+Contact form was made in html, CSS and PHP. I do not know PHP so I found free srcipt and used it (and it's working!)
 
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
+- PHP script found at <a href="https://www.freecontactform.com/form-guides/html-email-form" target="_blank">`freecontactform.com`</a>
 
 ---
 
 
 ## Footer
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 - Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
