@@ -14,16 +14,16 @@
 
 ***This is the whole view***
 
-[![INSERT YOUR GRAPHIC HERE](resources/webScreenshot.png)]()
+[![Whole view](resources/webScreenshot2.png)]()
 
-- Most people will glance at your `README`, *maybe* star it, and leave
-- Ergo, people should understand instantly what your project is about based on your repo
+- This website I created with HTML5, CSS3, Java Script and PHP.
+- I'm still learning, so there might be some mistakes.
 
-> Tips
+> Theme:
 
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
+- Night (dark blue with light accents);
+- Stars (animation in header looking like moving constellation. Also favicon in shape of stars);
+- Shining (some headline have animation 'glow);
 
 > GIF Tools
 
