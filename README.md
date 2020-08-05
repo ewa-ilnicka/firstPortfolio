@@ -21,14 +21,15 @@
 > Theme:
 
 - Night (dark blue with light accents);
-- Stars (animation in header looking like moving constellation. Also favicon in shape of stars);
-- Shining (some headline have animation 'glow);
+- Stars (animation in header looks like a moving constellation. Also favicon is in a shape of stars);
+- Shining (some headlines have animation 'glow');
 
 > Technologies:
 
 - HTML 5;
 - CSS 3;
 - JavaScript;
+- JQuery;
 - PHP;
 
 > Tools:
@@ -55,11 +56,11 @@
 ## Navigation
 
 - Each link will take you to the particular section.
-- Structure was made in HTML, styling in CSS and script in JQuery.
+- Structure was made in HTML, styling in CSS and the script in JQuery.
 
 ### RWD
 
-- It's not yet responsive. I'm working on hamburger menu. I started this project with 'Mobile First Design" in mind but something was wrong all the time so I left it for later.
+- It's not yet as responsive as I'd like. I'm working on a hamburger menu. I started this project with the 'Mobile First Design' in mind but since the page would be viewed mainly on desktop I decided to focus on the 'Desktop First Design' this time.
 
 ---
 
@@ -71,12 +72,12 @@
 
 ### Animation
 
-- I found free JS script with animation of moving constellation (adnotation about author is in the script), used it and modified for my design.
+- I found free JS script with animation of moving constellation (MIT Licence), used it and modified for my design.
 
 ## Images
 
-- Icon of girl is in svg format (mit license).
-- Background image found on Pixabay (mit license).
+- Icon of girl is in svg format (MIT) license).
+- Background image found on Pixabay (MIT license).
 
 ---
 
@@ -86,11 +87,11 @@
 
 ### Photo
 
-- Photo made for some documents. I'm thinking about changing it for something less formal and maybe ad some opacity (watermarks seem to be popular).
+- Photo made for some documents. I'm thinking about changing it to something less formal and maybe to add some opacity (watermarks seem to be popular).
 
 ### Text
 
-- I didn't have any good idea what to write in here, especially that I don't have any experience in IT section yet. I tried to make it short yet interesting (I hope it is). 
+- This is just a quick summary of what I'm interested in and some short yet hopefully details.
 
 
 ---
@@ -112,7 +113,7 @@
 
 ## Contact
 
-Contact form was made in html, CSS and PHP. I do not know PHP so I found free srcipt and used it (and it's working!)
+Contact form was made in html, CSS and PHP. I do not know PHP so I've found a free script and used it (and it's working!)
 
 - PHP script found at <a href="https://www.freecontactform.com/form-guides/html-email-form" target="_blank">`freecontactform.com`</a>
 - Script didn't work with polish diacritical marks (ąęśćżźł) in field 'Name' so i Had to add them.
