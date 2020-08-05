@@ -45,6 +45,11 @@ text color - #9cd9f9 rgb(156, 217, 249) */
     font-family: 'Ubuntu', sans-serif;
 }
 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -98,15 +103,6 @@ img {
     margin-right: var(--mb-2);
 }
 
-.l-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
-}
 
 nav {
     position: fixed;
@@ -124,14 +120,11 @@ nav a {
     flex-grow: 1;
     font-size: 24px;
     text-align: center;
-    color: white;
     text-decoration: none;
     transition: 0.5s;
     padding: 20px;
-}
-
-nav a {
     font-family: 'Yatra One', cursive;
+    color: var(--text-color);
 }
 
 nav a:hover {
@@ -139,13 +132,6 @@ nav a:hover {
     color: white;
 }
 
-
-/* .nav {
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 @media screen and (max-width: 768px) {
     .nav__menu {
@@ -155,9 +141,8 @@ nav a:hover {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(0, 0, 0, 0.5);
         transition: 0.5s;
-        font-family: 'Yatra One', cursive;
+        background-color: var(--darkest-color);
     }
 }
 
@@ -167,46 +152,23 @@ nav a:hover {
 
 .nav__link {
     position: relative;
-    color: #fff;
 }
 
 .nav__link:hover {
     position: relative;
 }
 
-.nav__link:hover::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: var(--first-color);
-}
-
-.nav__cv {
-    color: var(--second-color);
-}
 
 .nav__toggle {
-    color: var(--second-color);
-    font-size: 1.5rem;
+    color: var(--text-color);
+    font-size: 2rem;
     cursor: pointer;
-}
-
-.active::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: var(--darkest-color);
 }
 
 .show {
     right: 0;
-} */
+}
+
 
 .home {
     height: calc(100vh - 3rem);

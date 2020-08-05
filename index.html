@@ -13,16 +13,14 @@
     <meta name="author" content="Ewa Ilnicka" />
     <link rel="icon" type="image/scg" href="resources/constellation.svg" />
     <script src="https://kit.fontawesome.com/dda020c77b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+        integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="l-header">
-        <nav class="nav">
+        <nav class="nav ">
             <!-- <nav class="nav bd-grid"> -->
-            <div>
-                <a href="resources/ewa_ilnicka_cv.pdf" class="nav__cv">POBIERZ CV</a>
-            </div>
-
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active">Start</a></li>
@@ -30,11 +28,12 @@
                     <li class="nav__item"><a href="#skills" class="nav__link">Umiejętności</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Projekty</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Kontakt</a></li>
+                    <li class="nav__item"><a href="resources/ewa_ilnicka_cv.pdf" class="nav__link">POBIERZ CV</a></li>
                 </ul>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                <i class="fas fa-bars show active "></i>
             </div>
         </nav>
     </header>
@@ -252,11 +251,11 @@
     </footer>
 
 
+    <script src="js/main.js"></script>
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/demo-1.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
     <script>
         $('nav a').on('click', function () {
