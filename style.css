@@ -413,6 +413,8 @@ nav a:hover {
 .work__img img {
     transition: 1s;
     cursor: pointer;
+    height: 100%;
+    width: 100%;
 }
 
 .work__img img:hover {
@@ -562,31 +564,6 @@ input[type="submit"]:hover {
     color: #9cd9f9;
 }
 
-/* .contact__input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    padding: 1rem;
-    border-radius: .5rem;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-}
-
-.inputBox {
-    color: #9cd9f9;
-}
-
-
-.contact__button {
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto; 
-}*/
-
-/* ===== FOOTER =====*/
 .footer {
     background-color: var(--second-color);
     color: #fff;
@@ -665,18 +642,6 @@ input[type="submit"]:hover {
 
     .home__data {
         align-self: flex-end;
-    }
-
-    .home__social {
-        padding-top: 0;
-        padding-bottom: 2.5rem;
-        flex-direction: row;
-        align-self: flex-end;
-    }
-
-    .home__social-icon {
-        margin-bottom: 0;
-        margin-right: var(--mb-4);
     }
 
     .home__img {
