@@ -59,6 +59,13 @@ body {
     font-size: var(--normal-font-size);
     color: var(--text-color);
     background-color: var(--darkest-color);
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+
+html {
+    height: -webkit-fill-available;
 }
 
 ul {
@@ -73,6 +80,10 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+#demo-canvas {
+    max-width: 100%;
 }
 
 .section-title {
