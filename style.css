@@ -192,6 +192,7 @@ nav a:hover {
     z-index: -2;
 }
 
+
 .home__data {
     align-self: center;
     position: absolute;
@@ -296,6 +297,15 @@ nav a:hover {
 .about__img img {
     width: 200px;
     border-radius: .5rem;
+}
+
+.about__text {
+    letter-spacing: 1px;
+}
+
+.about__text span,
+.about__subtitle span {
+    color: white;
 }
 
 .sectionSkills {
@@ -415,21 +425,78 @@ nav a:hover {
     row-gap: 2rem;
 }
 
-.work__img {
-    box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
-    border-radius: .5rem;
-    overflow: hidden;
+.project {
+    height: 200px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
-.work__img img {
+
+.project-img {
     transition: 1s;
     cursor: pointer;
     height: 100%;
     width: 100%;
+    position: fixed;
+    overflow: hidden;
 }
 
-.work__img img:hover {
-    transform: scale(1.1);
+
+.project-description {
+    visibility: hidden;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.halign {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.project-type {
+    font-style: italic;
+    font-size: 0.7em;
+    padding-bottom: 5px;
+}
+
+.project-name {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+.project-url {
+    margin-top: 20px;
+}
+
+.project-url a {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.project-url a:hover {
+    transition: all 0.5s;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+.animated {
+    visibility: visible !important;
 }
 
 .contact {
